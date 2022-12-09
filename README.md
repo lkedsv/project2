@@ -8,10 +8,18 @@ CREATE DATABASE "project2"
     ENCODING = 'UTF8'
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
-   
+    
 ..............................
 
-2 - Arquivo .env:
+2 - CRIAR PROJETO
+TERMINAL:
+composer create-project laravel/laravel project2
+php artisan serve 
+http://127.0.0.1:8000
+
+..............................
+
+3 - Arquivo .env:
 
 APP_NAME=Project2
 DB_CONNECTION=pgsql
@@ -22,3 +30,4 @@ DB_USERNAME=postgres
 DB_PASSWORD=123
 
 ..............................
+
